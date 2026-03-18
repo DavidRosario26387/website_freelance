@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BAN Enterprises Brochure Download">
+    <title>BAN Enterprises | Brochure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .brochure-hero {
+            background: linear-gradient(135deg, #0A1426 0%, var(--primary) 45%, var(--primary-mid) 100%);
+            color: var(--white);
+            padding: 90px 0 70px;
+        }
+
+        .brochure-hero .hero-tag {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.18);
+            color: rgba(255,255,255,0.82);
+        }
+
+        .brochure-hero h1 {
+            font-family: var(--font-heading);
+            font-size: 48px;
+            font-weight: 900;
+            line-height: 1.08;
+            letter-spacing: -1px;
+            margin: 16px 0 18px;
+        }
+
+        .brochure-hero p {
+            font-size: 16px;
+            color: rgba(255,255,255,0.75);
+            max-width: 620px;
+            line-height: 1.8;
+        }
+
+        .brochure-section {
+            padding: 70px 0 90px;
+        }
+
+        .brochure-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            padding: 42px 38px;
+            display: grid;
+            gap: 18px;
+            max-width: 760px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .brochure-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin: 0 auto 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+            color: var(--white);
+            font-size: 28px;
+        }
+
+        .brochure-card h2 {
+            font-family: var(--font-heading);
+            font-size: 24px;
+            font-weight: 900;
+            color: var(--primary);
+        }
+
+        .brochure-card p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.75;
+        }
+
+        .download-btn {
+            margin-top: 6px;
+            justify-content: center;
+        }
+
+        .file-note {
+            font-family: var(--font-heading);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 1.6px;
+            color: var(--medium-gray);
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 768px) {
+            .brochure-hero h1 { font-size: 36px; }
+            .brochure-card { padding: 34px 24px; }
+        }
+
+        @media (max-width: 480px) {
+            .brochure-hero h1 { font-size: 30px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== TOP BAR ===== -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-inner">
+                <div class="top-contact">
+                    <a href="tel:+918438001925"><i class="fas fa-phone-alt"></i> +91 8438001925</a>
+                    <a href="tel:+918122328103"><i class="fas fa-phone-alt"></i> +91 8122328103</a>
+                    <a href="info.banentrerprises@gmail.com"><i class="fas fa-envelope"></i> info.banentrerprises@gmail.com</a>
+                </div>
+                <div class="top-social">
+                    <a href="https://instagram.com/bane.nterprises/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/918438001925" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="https://media.siwindia.com/assets/images/siw-logo.webp"
+                         alt="BAN Enterprises"
+                         class="logo-img"
+                         onerror="this.style.display='none'; document.querySelector('.logo-fallback').style.display='flex'">
+                    <div class="logo-fallback">
+                        <span class="logo-siw">BAN</span>
+                        <div class="logo-sub">
+                            <span>BAN</span>
+                            <span>Enterprises</span>
+                        </div>
+                    </div>
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="nav-item">HOME</a></li>
+                    <li><a href="products.html" class="nav-item">PRODUCTS</a></li>
+                    <li><a href="brochure.html" class="nav-item active">BROCHURE</a></li>
+                    <li><a href="index.html#about" class="nav-item">ABOUT US</a></li>
+                    <li><a href="index.html#contact" class="nav-item btn-nav">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="brochure-hero">
+        <div class="container">
+            <span class="hero-tag">COMPANY BROCHURE</span>
+            <h1>Download Our Product Brochure</h1>
+            <p>Access our latest brochure to explore our stainless steel fastener range, capabilities, and quality standards. The file is available for immediate download.</p>
+        </div>
+    </section>
+
+    <!-- ===== BROCHURE DOWNLOAD ===== -->
+    <section class="brochure-section">
+        <div class="container">
+            <div class="brochure-card">
+                <div class="brochure-icon"><i class="fas fa-file-pdf"></i></div>
+                <h2>BAN Enterprises Brochure</h2>
+                <p>Click the button below to download the brochure PDF. If the download does not start automatically, your browser will prompt you to save the file.</p>
+                <a class="btn btn-primary download-btn" href="assets/brochure.pdf" download>
+                    DOWNLOAD BROCHURE <i class="fas fa-download"></i>
+                </a>
+                <div class="file-note">PDF FORMAT</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo-wrap">
+                    <img src="https://media.siwindia.com/assets/images/siw-logo.webp" alt="BAN Enterprises" class="footer-logo-img" onerror="this.style.display='none'">
+                    <span class="est-badge">EST 2021</span>
+                </div>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="index.html">HOME</a>
+                    <a href="products.html">PRODUCTS</a>
+                    <a href="brochure.html">BROCHURE</a>
+                    <a href="index.html#about">ABOUT US</a>
+                    <a href="index.html#contact">CONTACT US</a>
+                </nav>
+                <div class="footer-divider"></div>
+                <div class="footer-legal">
+                    <a href="#">TERMS &amp; CONDITIONS</a>
+                    <a href="#">PRIVACY POLICY</a>
+                    <a href="#">DISCLAIMER</a>
+                </div>
+                <div class="footer-credit">BAN Enterprises</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
