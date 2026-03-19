@@ -1323,10 +1323,10 @@ button { font-family: inherit; }
         height: 100vh;
         background: var(--primary);
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 50px 36px;
-        gap: 4px;
+        justify-content: flex-start;
+        align-items: stretch;
+        padding: 90px 32px 40px;
+        gap: 12px;
         transition: right 0.35s cubic-bezier(0.4, 0, 0.2, 1);
         z-index: 998;
         box-shadow: -8px 0 40px rgba(0,0,0,0.4);
@@ -1337,8 +1337,10 @@ button { font-family: inherit; }
     .nav-links .nav-item {
         color: rgba(255,255,255,0.8);
         font-size: 13px;
-        padding: 13px 0;
+        padding: 12px 0;
         width: 100%;
+        display: block;
+        border-bottom: 1px solid rgba(255,255,255,0.06);
     }
 
     .nav-links .nav-item:hover,
@@ -1350,7 +1352,9 @@ button { font-family: inherit; }
         padding: 13px 22px;
         border-radius: 4px;
         margin-top: 10px;
-        width: auto;
+        width: 100%;
+        text-align: center;
+        border-bottom: none;
     }
 
     .top-contact { display: none; }
@@ -1398,4 +1402,16 @@ button { font-family: inherit; }
     .cert-logos { gap: 24px; }
     .contact-form .form-row { gap: 12px; margin-bottom: 12px; }
     .about-hero-overlay h2 { font-size: 30px; }
+
+    .download-btn {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        white-space: normal;
+        text-align: center;
+        padding: 14px 18px;
+        font-size: 11px;
+        letter-spacing: 1.2px;
+        line-height: 1.4;
+    }
 }
