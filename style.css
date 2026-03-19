@@ -1370,6 +1370,15 @@ button { font-family: inherit; }
 
     .testimonial-card { padding: 50px 24px 44px; }
     .testimonial-text { font-size: 15px; }
+    .quote-icon {
+        position: static;
+        margin: 0 auto 18px;
+        font-size: 36px;
+        opacity: 0.18;
+    }
+    .testimonial-text { max-width: 100%; line-height: 1.6; }
+    .testimonial-author { flex-direction: column; gap: 10px; }
+    .author-name { letter-spacing: 1.5px; }
 
     .contact-form .form-row { grid-template-columns: 1fr; }
 
